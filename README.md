@@ -3,7 +3,7 @@ C++ Last Minute Notes(LMN's) For Algorithm
 
 
 ## C++ Algorithms:
->[demystifying C++ Algo in simplest Way.]
+>[demystifying C++ Algo.]
 
 
 # vector<int> arr = {1, 2, 3 ,8,1};
