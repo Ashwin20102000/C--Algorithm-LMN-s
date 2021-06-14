@@ -50,21 +50,21 @@ int main(){
 	 vector<int> arr = {1, 2, 3 ,8,1};
 	 vector<int> ar = {1,5,9,1,22};
 	 vector<int> a(arr.size()+ar.size());
-	 //cout<<binary_search(arr.begin(),arr.end(),2);							 1
-	 //cout<<is_sorted(arr.begin(),arr.end());  							   	 0
-	 //cout<<*lower_bound(arr.begin(),arr.end(),2); 							 2
-	 //cout<<*upper_bound(arr.begin(),arr.end(),2); 							 3 
-	 //cout<<*is_sorted_until(arr.begin(),arr.end());{1, 2, 3 ,8,5}-?or)3arg(cmp)5
-	 //cout<<*adjacent_find(arr.begin(),arr.end(),cmp);^above ex:if fails		 8
-	 //cout<<count(arr.begin(),arr.end(),1); {1, 2, 3 ,8,1};					 2
-	 //cout<<(find(arr.begin(),arr.end(),12)!=arr.end());=>if u srch fr ele		 0
+	 //cout<<binary_search(arr.begin(),arr.end(),2);							
+	 //cout<<is_sorted(arr.begin(),arr.end());  							   	 
+	 //cout<<*lower_bound(arr.begin(),arr.end(),2); 							 
+	 //cout<<*upper_bound(arr.begin(),arr.end(),2); 							 
+	 //cout<<*is_sorted_until(arr.begin(),arr.end());{1, 2, 3 ,8,5}-?or)3arg(cmp)
+	 //cout<<*adjacent_find(arr.begin(),arr.end(),cmp);^above ex:if fails		 
+	 //cout<<count(arr.begin(),arr.end(),1); {1, 2, 3 ,8,1};					 
+	 //cout<<(find(arr.begin(),arr.end(),12)!=arr.end());=>if u srch fr ele		 
 	 //replace(arr.begin(),arr.end(),1,21); needs two xtra args(s,e,act,alt)All  arr[0]=21
-	 //swap(arr[0],arr[1]);   swapin => 1,2								     	 2,1
-	 //move(arr.begin(),arr.end(),a.begin()); vector<int> a(5);move all ele to	 a=1,2,3,8,1
-	 //fill(arr.begin(),arr.end(),3);											 arr=3,3,3,3,3	
-	 //merge(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());				 merge2_ar into 1
-	 //set_intersection(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());    indexWiseInteractionCheck
-	 //set_union(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());           indexWiseUnionCheck
+	 //swap(arr[0],arr[1]);   swapin => 1,2								     	 
+	 //move(arr.begin(),arr.end(),a.begin()); vector<int> a(5);move all ele to	
+	 //fill(arr.begin(),arr.end(),3);								
+	 //merge(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());				
+	 //set_intersection(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());   
+	 //set_union(arr.begin(),arr.end(),ar.begin(),ar.end(),a.begin());          
 	 
 	 for(auto it:a)cout<<it<<" "; 
 	 
